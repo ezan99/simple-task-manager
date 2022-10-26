@@ -1,0 +1,34 @@
+.img {
+    width: 35px;
+    height: 35px
+}
+
+.img2 {
+    cursor: pointer;
+}
+
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.imgContent {
+    display: flex;
+    align-items: center;
+    padding-right: 30px;
+}
+
+.arrow {
+    width: 20px;
+    cursor: pointer;
+}
+
+.leftPanel {
+    display: flex;
+}
+
+.arrowContent {
+    display: flex;
+    align-self: center;
+}
