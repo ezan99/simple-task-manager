@@ -1,0 +1,33 @@
+{
+  "name": "test-frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:unit": "jest"
+  },
+  "jest": {
+    "automock": false,
+    "setupFiles": [
+      "./setupJest.js"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ezan99/simple-task-manager.git"
+  },
+  "author": "Ezan Iljazi",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/ezan99/simple-task-manager/issues"
+  },
+  "homepage": "https://github.com/ezan99/simple-task-manager#readme",
+  "devDependencies": {
+    "jest": "^29.2.2",
+    "jest-environment-jsdom": "^29.2.2",
+    "jest-fetch-mock": "^3.0.3"
+  },
+  "dependencies": {
+    "node-fetch": "^3.2.10"
+  }
+}
